@@ -80,3 +80,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# TODO LIST
+
+1. Understand how to store state
+2. Understand how the information flows
+3. Create toy project
+4. Learn redux
+5. Create toy project with redux
+6. Convert project to typescript
