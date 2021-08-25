@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-function Todo(props) {
+function TodoItem(props) {
   //Checkbox is checked?
   //Save text list
 
@@ -44,7 +44,7 @@ function Todo(props) {
 
     render() {
       const todoItems = this.state.tasks.map((task) =>
-        <Todo task={task.task} done={task.done}/>
+        <TodoItem task={task.task} done={task.done}/>
       );
       console.log(this.state);
 
@@ -57,22 +57,22 @@ function Todo(props) {
     }
   }
   
-  class TODOList extends React.Component {
-    render() {
-      return (
-        <div className="todolist">
-          <div className="todolistitems">
-            <Board />
-          </div>
-        </div>
-      );
-    }
-  }
+  // class TODOList extends React.Component {
+  //   render() {
+  //     return (
+  //       <div className="todolist">
+  //         <div className="todolistitems">
+  //           <Board />
+  //         </div>
+  //       </div>
+  //     );
+  //   }
+  // }
   
   // ========================================
   
   ReactDOM.render(
-    <TODOList />,
+    <Board />,
     document.getElementById('root')
   );
   
